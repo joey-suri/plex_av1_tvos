@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Client name="tvOS">
+  <Settings>
+    <Setting name="DirectPlayStreamSelection" value="true" />
+    <Setting name="StreamUnselectedIncompatibleAudioStreams" value="true" />
+  </Settings>
   <TranscodeTargets>
     <VideoProfile container="mkv" codec="h264,h265,hevc,mpeg2video,mpeg4,vc1,av1" audioCodec="flac" subtitleCodec="ass,dvb_subtitle,vobsub,eia_608,pgs,microdvd,movtext,ssa,srt" />
     <MusicProfile container="flac" codec="flac" />
